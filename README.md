@@ -14,7 +14,7 @@ sudp apt-get install docker.io # Install Docker
 Add the current user to docker group
 sudo usermod -aG docker $USER
 Clone the source-code repository url from GitHub.
-https://github.com/CloudOpsRahul/Docker-Project.git
+https://github.com/gitwithalmas/Docker-Project.git
 Make Dockerfile.
 # Use an official Python runtime as the base image
 FROM python:3.9-slim
