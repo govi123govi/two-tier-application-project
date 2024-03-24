@@ -1,4 +1,5 @@
 # Docker-project ![image](https://github.com/gitwithalmas/Docker-project/assets/159616162/69c71cce-9ee2-4242-a658-88202e85941a)
+![image](https://github.com/gitwithalmas/Docker-project/assets/159616162/ec13b38b-422d-42dc-a4c2-e2527a3be314)
 
 
  Deploying a two-tier application with Docker-compose involves defining a YAML file to specify the services, networks, and volumes for a multi-container application. It simplifies the deployment of front-end and back-end components, enabling efficient scaling and orchestration of containers. Docker-compose streamlines the setup, configuration, and interconnection of these components, making it easier to manage and run the application.
@@ -103,3 +104,4 @@ Now run docker-compose command. It will create network automatically.
 docker-compose up -d  # it creates network automatically.
 docker-compose down   # it down the access
 Finally, access your flask app -> publicip:5000er
+![image](https://github.com/gitwithalmas/Docker-project/assets/159616162/4045b18f-4dd8-4862-9d5e-e794d7c43e8b)
