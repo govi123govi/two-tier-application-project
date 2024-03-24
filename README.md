@@ -62,8 +62,10 @@ docker build -t flaskapp:latest .
 
 Now, go to your EC2 instance security group open port no. 5000 & save it.
 If you want to run both containers in one command - flaskapp, mysql.
+
 Install docker-compose.
 sudo apt-get install docker-compose -y
+
 Make docker-compose.yml file.
 version: '3'
 services:
@@ -104,4 +106,5 @@ Now run docker-compose command. It will create network automatically.
 docker-compose up -d  # it creates network automatically.
 docker-compose down   # it down the access
 Finally, access your flask app -> publicip:5000er
+
 ![image](https://github.com/gitwithalmas/Docker-project/assets/159616162/4045b18f-4dd8-4862-9d5e-e794d7c43e8b)
